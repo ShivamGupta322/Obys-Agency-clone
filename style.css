@@ -234,8 +234,55 @@ margin-top: 18vh;
 #page3{
     min-height: 100vh;
     width: 100%;
-    background-color: rgb(61, 59, 59);
+    /* background-color: rgb(61, 59, 59); */
     position: relative;
+    padding: 17vh 2vw;
+    margin-bottom: 20vh;
+}
+
+#page3 h1{
+    font-size: 7vw;
+    text-transform: uppercase;
+    position: relative;
+    margin-left: 28vw;
+}
+#page3::before{
+    content: "02";
+    position: absolute;
+    font-size: 3vw;
+    font-weight: 100;
+    font-family: "silk serif";
+    left: -12% ;
+    top: 2%;
+}
+#page3 .underline{
+   margin-left: 28vw;
+}
+
+#image-div-container{
+    background-color: red;
+    padding: 1vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.image-div{
+    height: 33vw;
+    width: 24vw;
+    background-color: #3f7df4;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.image-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 #page4{
@@ -446,4 +493,11 @@ margin-top: 18vh;
 #footer>h5{
     font-weight: 500;
     font-size: 1vw;
+}
+
+
+
+._canvas_conatiner{
+z-index: 999999 !important;
+pointer-events: none;
 }
