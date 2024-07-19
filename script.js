@@ -96,7 +96,7 @@ function cursorAnimation(){
     
     Shery.makeMagnet("#nav-part2 h4");
 }
-cursorAnimation();
+// cursorAnimation();
 
 
 
@@ -109,4 +109,3 @@ function sheryAnimation(){
 }
 
 sheryAnimation();
-
